@@ -7,3 +7,5 @@ this program helps the counter in-charge find an empty room with a press of a bu
 the next program displays a simple GUI jframe for the counter in-charge to check the no. of guests in each room(input room no.) and displays(output), the no of guests in that room. 
 
 Mincoincalc: collects input to calculate the min no. of coins req
+
+Primitivewordprocessor: input which line to edit & input, changes the line according to the input.
