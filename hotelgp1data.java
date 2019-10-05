@@ -31,7 +31,7 @@ public class hotelgp1data {
 
         br.close();//close br to prevent conflict when reading/writing to files.
         input.close();
-        PrintStream ps = new PrintStream("hotelgp.txt");
+        PrintStream ps = new PrintStream("src/hotelgp.txt");
         for (roomNum = 0; roomNum < guests.length; roomNum++) {
             ps.println(guests[roomNum]);
         }
