@@ -11,3 +11,4 @@ Mincoincalc: collects input to calculate the min no. of coins req
 Primitivewordprocessor: input which line to edit & input, changes the line according to the input.
 
 wordprocessorv2(copies files): input file(with correct directory!) to read in 1st cmd line arg, file to write/create in 2nd cmd line arg. copies txt file and creates a brand new file. type -1 in a line of read file to terminate program copying till that line. 
+used in conjuction with "jimmy.txt" file to showcase
