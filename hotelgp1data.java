@@ -29,11 +29,12 @@ public class hotelgp1data {
             out.println("You have successfully checked into room "+roomNum+" for "+guests[roomNum]+". Thank you.");
         }
 
-        br.close();
+        br.close();//close br to prevent conflict when reading/writing to files.
         input.close();
         PrintStream ps = new PrintStream("hotelgp.txt");
         for (roomNum = 0; roomNum < guests.length; roomNum++) {
             ps.println(guests[roomNum]);
         }
+        ps.close(); 
     }
 }
