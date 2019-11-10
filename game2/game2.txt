@@ -1,0 +1,6 @@
+A simple game where characters can be created and used to battle each other with Moves. 
+
+Highlights: 
+uses ByteStream to store Moves, specifically with the RandomAccessFile object. 
+Moves indexed using an Index object, which has a fixed byte length, which then provides the offset of the corresponding actual Moves object
+such that the Characters can choose which Moves to be added/'learned'. 
