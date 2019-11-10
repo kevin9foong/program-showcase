@@ -1,6 +1,14 @@
 # program-showcase
 a short showcase of a few programs ive made
 
+Game2: 
+A simple game where characters can be created and used to battle each other with Moves. 
+Highlights: 
+uses ByteStream to store Moves, specifically with the RandomAccessFile object. 
+Moves indexed using an Index object, which has a fixed byte length, which then provides the offset of the corresponding actual Moves object
+such that the Characters can choose which Moves to be added/'learned'. 
+
+
 hotelgp program, 
 imagine a hotel with x no. of rooms, and at the front desk counter, some guests would like to check in.
 this program helps the counter in-charge find an empty room with a press of a button, allows input for the number of guests checked in, and updates the file accordingly. \n
