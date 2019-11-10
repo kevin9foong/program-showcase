@@ -4,7 +4,7 @@ a short showcase of a few programs ive made
 Game2: (10 nov 2019)
 A simple game where characters can be created and used to battle each other with Moves. 
 Highlights: 
-uses ByteStream to store Moves, specifically with the RandomAccessFile object. 
+uses ByteStream to store Moves in a .dat file, specifically with the RandomAccessFile object. 
 Moves indexed using an Index object, which has a fixed byte length, which then provides the offset of the corresponding actual Moves object
 such that the Characters can choose which Moves to be added/'learned'. 
 
