@@ -1,7 +1,7 @@
 # program-showcase
 a short showcase of a few programs ive made
 
-Game2: 
+Game2: (10 nov 2019)
 A simple game where characters can be created and used to battle each other with Moves. 
 Highlights: 
 uses ByteStream to store Moves, specifically with the RandomAccessFile object. 
