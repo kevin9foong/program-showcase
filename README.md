@@ -1,5 +1,6 @@
 # program-showcase
 a short showcase of a few programs ive made
+it is currently very primitive and is simply a repo of code that i made when i was first learning Java in 2019. 
 
 Game2: (10 nov 2019)
 A simple game where characters can be created and used to battle each other with Moves. 
